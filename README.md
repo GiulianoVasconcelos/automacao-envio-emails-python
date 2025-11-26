@@ -19,3 +19,12 @@ Este projeto é uma solução automatizada para envio de e-mails personalizados 
 2. Instale as dependências:
    ```bash
    pip install -r requirements.txt
+Configure suas credenciais no script (utilize Senha de App do Google).
+
+Execute:
+python main.py
+
+💡 Aprendizados
+Este projeto foi desenvolvido focando em resiliência de dados. O script possui múltiplas camadas de tentativa (try/except) para conseguir ler arquivos com formatações incorretas (Buffer Overflow, NUL bytes), um problema comum no dia a dia de Data Science.
+
+Desenvolvido por [Giuliano Vasconcelos]
